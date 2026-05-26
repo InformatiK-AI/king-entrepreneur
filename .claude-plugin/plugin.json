@@ -1,0 +1,24 @@
+﻿{
+  "name": "king-entrepreneur",
+  "version": "1.0.0",
+  "description": "King Entrepreneur: ruta completa para fundar y lanzar un SaaS. /welcome detecta tu perfil, /validate-idea analiza tu mercado, /mvp-accelerator lanza auth + pagos + deploy + landing en un comando.",
+  "author": {
+    "name": "InformatiK-AI",
+    "email": "j.salgado2k@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/InformatiK-AI/king-entrepreneur",
+  "repository": "https://github.com/InformatiK-AI/king-entrepreneur",
+  "requires": ["king-framework"],
+  "keywords": [
+    "entrepreneur",
+    "saas",
+    "mvp",
+    "startup",
+    "lean-canvas",
+    "validate-idea",
+    "landing-page",
+    "king-framework",
+    "claude-code"
+  ]
+}
