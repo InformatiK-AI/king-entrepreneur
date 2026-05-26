@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "king-entrepreneur",
   "version": "1.0.0",
   "description": "King Entrepreneur: ruta completa para fundar y lanzar un SaaS. /welcome detecta tu perfil, /validate-idea analiza tu mercado, /mvp-accelerator lanza auth + pagos + deploy + landing en un comando.",
