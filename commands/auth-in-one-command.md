@@ -1,4 +1,4 @@
-﻿---
+---
 name: auth-in-one-command
 description: "Configura autenticación con defaults entrepreneur (JWT + Google OAuth). Wrapper de auth-scaffold"
 argument-hint: "(sin argumentos — auto-detecta stack)"

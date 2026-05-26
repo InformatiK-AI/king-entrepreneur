@@ -1,4 +1,4 @@
-﻿---
+---
 name: auth-in-one-command
 version: 1.0
 description: "Wrapper de auth-scaffold con defaults pre-configurados para entrepreneur: JWT + Google OAuth, session-based, sin ABAC/OPA. Configura autenticación en un comando sin preguntar 6 opciones."

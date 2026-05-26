@@ -1,4 +1,4 @@
-﻿---
+---
 name: deploy-in-one-command
 version: 1.0
 description: "Deploy automatizado a Vercel, Railway o Fly.io en un comando. Auto-detecta la plataforma por archivos del proyecto. Las credenciales nunca pasan por el chat — se usan los CLIs de cada plataforma."

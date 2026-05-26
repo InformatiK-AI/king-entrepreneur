@@ -1,4 +1,4 @@
-﻿---
+---
 name: mvp-accelerator
 description: "Orquestador del arco entrepreneur: configura auth + pagos + deploy + landing en secuencia"
 argument-hint: "[nombre-del-producto]"

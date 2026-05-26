@@ -1,4 +1,4 @@
-﻿---
+---
 name: welcome
 version: 1.0
 description: "Onboarding interactivo para nuevos usuarios del framework. Detecta si el usuario es developer o entrepreneur y adapta el flujo. Punto de entrada recomendado para entrepreneurs."

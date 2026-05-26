@@ -1,4 +1,4 @@
-﻿---
+---
 name: deploy-in-one-command
 description: "Deploy a Vercel, Railway o Fly.io (auto-detectado). Credenciales siempre via CLI, nunca en el chat"
 argument-hint: "(sin argumentos — auto-detecta plataforma)"

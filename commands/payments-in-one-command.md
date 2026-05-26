@@ -1,4 +1,4 @@
-﻿---
+---
 name: payments-in-one-command
 description: "Configura sistema de pagos (Stripe o Lemonsqueezy, auto-detectado). Webhook con firma obligatoria"
 argument-hint: "(sin argumentos — auto-detecta provider)"

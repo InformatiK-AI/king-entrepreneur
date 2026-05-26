@@ -1,4 +1,4 @@
-﻿---
+---
 name: lean-canvas
 version: 1.0
 description: "Generación de Lean Canvas estructurado con los 9 bloques estándar. Output: tabla Markdown exportable en docs/lean-canvas/. Usable independientemente de /validate-idea."

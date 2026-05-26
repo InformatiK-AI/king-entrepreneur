@@ -1,4 +1,4 @@
-﻿---
+---
 name: mvp-accelerator
 version: 1.0
 description: "Orquestador principal del arco entrepreneur. Coordina auth-in-one-command + payments-in-one-command + deploy-in-one-command + landing-page-generate en secuencia. PHASE ROUTER lazy — carga un sub-skill a la vez."

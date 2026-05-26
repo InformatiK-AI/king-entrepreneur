@@ -1,4 +1,4 @@
-﻿---
+---
 name: welcome
 description: "Onboarding interactivo: detecta si el usuario es developer o entrepreneur y lo dirige al skill correcto"
 argument-hint: "(sin argumentos)"

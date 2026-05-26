@@ -1,4 +1,4 @@
-﻿---
+---
 name: validate-idea
 description: "Análisis de viabilidad de idea SaaS: TAM/SAM/SOM, competidores, recomendación PROCEDER/PIVOTAR/DESCARTAR"
 argument-hint: "(sin argumentos — guiado conversacionalmente)"

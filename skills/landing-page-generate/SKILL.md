@@ -1,4 +1,4 @@
-﻿---
+---
 name: landing-page-generate
 version: 1.0
 description: "Genera landing page con conversion optimization. Auto-detecta target (HTML, React, Vue). Integra S13 Design Intelligence si disponible. Sin inserción dinámica de HTML sin sanitización."

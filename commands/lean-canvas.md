@@ -1,4 +1,4 @@
-﻿---
+---
 name: lean-canvas
 description: "Genera Lean Canvas estructurado con los 9 bloques estándar. Output: tabla Markdown exportable"
 argument-hint: "(sin argumentos — guiado conversacionalmente)"

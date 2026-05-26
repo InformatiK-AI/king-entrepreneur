@@ -1,4 +1,4 @@
-﻿---
+---
 name: landing-page-generate
 description: "Genera landing page con conversion optimization en HTML, React o Vue (auto-detectado)"
 argument-hint: "(sin argumentos — auto-detecta target)"
