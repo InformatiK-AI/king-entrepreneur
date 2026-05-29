@@ -4,3 +4,7 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# King Framework — worktrees y estado SDD/sesiones (no versionar)
+.worktrees/
+.king/
