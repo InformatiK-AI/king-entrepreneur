@@ -1,0 +1,31 @@
+change: "m14-billing-entrepreneur"
+milestone: "M14"
+started: "2026-05-28"
+persistence: openspec
+source_of_truth: "mejora/planes-detallados/M14-business-model-monetization.md"
+blocked_by: "king-core m14-licensing-core (merged @ 931282b)"
+phases:
+  init: completed
+  explore: completed
+  proposal: completed
+  specs: completed
+  design: completed
+  tasks: completed
+  apply: completed
+  verify: completed
+  archive: completed
+castle_verdict: FORTIFIED
+verification:
+  specs_compliant: "2/2 capabilities (12 escenarios)"
+  cross_repo_contract: "9/9 campos idénticos a king-core license-management.md"
+  webhook_signature: "constructEvent en los 3 handlers"
+  secrets_scan: "clean (solo placeholders)"
+  eol_note: "payments SKILL.md renormalizado CRLF→LF (cumple .gitattributes eol=lf); cambio funcional +2 líneas"
+delivery:
+  execution_mode: auto
+  delivery_strategy: single-pr
+  size_exception: true
+  chain_strategy: n/a
+  merge_commit: "3b29e10"
+  rationale: "M14-entrepreneur = STRIPE-SUBSCRIPTIONS.md (nuevo) + 2 extensiones aditivas a payments + king-pro-landing skill/command; merge único a develop."
+last_updated: "2026-05-28"
