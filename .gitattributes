@@ -1,0 +1,11 @@
+# Política de line-endings del repositorio king-entrepreneur.
+#
+# text=auto: git auto-detecta texto vs binario (no fuerza archivos binarios).
+# eol=lf: los archivos de texto se almacenan con LF en los blobs del repo,
+#         independiente de core.autocrlf de cada máquina.
+#
+# Resultado: LF consistente en el repo (portable), CRLF en working copy Windows
+# si el dev tiene core.autocrlf=true. Blinda la consistencia que hoy depende
+# de la config local de cada desarrollador.
+
+* text=auto eol=lf

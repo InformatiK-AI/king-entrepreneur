@@ -1,6 +1,7 @@
 ---
 name: mvp-accelerator
 version: 1.0
+api_version: 1.0.0
 description: "Orquestador principal del arco entrepreneur. Coordina auth-in-one-command + payments-in-one-command + deploy-in-one-command + landing-page-generate en secuencia. PHASE ROUTER lazy — carga un sub-skill a la vez."
 ---
 
@@ -64,7 +65,7 @@ Phase 0 (Load) → Phase 1 (pre-check) → Phase 2 (auth)
 > ⚠️ All actions are MANDATORY
 
 1. [ ] Verificar que el proyecto fue inicializado (existe `.king/knowledge/stack.md`)
-2. [ ] Preguntar el nombre del producto (si no es obvio del contexto):
+2. [ ] Determinar el nombre del producto — si existe `docs/business-spec/`, leer el handoff más reciente y extraer `PRODUCT_NAME` y el tipo de producto (NO re-preguntar lo ya respondido en la spec). Si no hay handoff, preguntar:
    ```
    ¡Empezamos! Para lanzar tu MVP necesito una cosa:
    ¿Cómo se llama tu producto?
@@ -289,6 +290,8 @@ Recovery:
 > Seguir instrucciones de `skills/session-management/SKILL.md` → Phase N+1
 
 ## Tabla de Flujo
+
+> **Origen válido**: `← /business-spec` — si existe `docs/business-spec/`, este skill arranca desde esa spec (lee `PRODUCT_NAME` y tipo de producto sin re-preguntar).
 
 | Condición | Próximo Skill |
 |-----------|---------------|

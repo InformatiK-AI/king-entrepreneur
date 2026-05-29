@@ -1,6 +1,7 @@
 ---
 name: validate-idea
 version: 1.0
+api_version: 1.0.0
 description: "Análisis de viabilidad de idea de SaaS: TAM/SAM/SOM conversacional, competidores, diferenciadores. Output: reporte Markdown con recomendación clara (PROCEDER / PIVOTAR / DESCARTAR)."
 ---
 
@@ -142,7 +143,7 @@ Recovery:
    | Competencia | Mercado activo pero fragmentado | Monopolio establecido o sin demanda |
 
 2. [ ] Generar recomendación en lenguaje de negocio:
-   - **PROCEDER**: al menos 3 criterios positivos. Indicar el path → `/lean-canvas` → `/mvp-accelerator`
+   - **PROCEDER**: al menos 3 criterios positivos. Indicar el path → `/lean-canvas` o `/user-story-mapping` → `/mvp-accelerator`
    - **PIVOTAR**: 1-2 criterios negativos pero idea salvageable. Indicar qué ajustar.
    - **DESCARTAR**: 3+ criterios negativos o problema no validado. Explicar por qué con respeto.
 
@@ -233,6 +234,7 @@ Recovery:
 
 | Condición | Próximo Skill |
 |-----------|---------------|
-| Recomendación = PROCEDER | `/lean-canvas` |
+| Recomendación = PROCEDER (definir modelo de negocio) | `/lean-canvas` |
+| Recomendación = PROCEDER (mapear journey / ir a spec) | `/user-story-mapping` |
 | Recomendación = PIVOTAR | Re-ejecutar `/validate-idea` con ajustes |
 | Recomendación = DESCARTAR | Fin del flujo. Sugerir nueva idea. |

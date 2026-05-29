@@ -1,0 +1,52 @@
+schema: spec-driven
+
+context: |
+  Tech stack: Claude Code Plugin (king-entrepreneur) — skills/commands/knowledge en Markdown+YAML, sin build step.
+  Skills con anatomía v1.0 (más simple que king-core v2.0): Knowledge Injection, QUICK REFERENCE,
+  CASTLE line, Fases con GATE IN/MUST DO/CHECKPOINT/IF FAILS, FINAL CHECKPOINT, Execution Summary,
+  Fase N+1 (Write Session), Tabla de Flujo. NO Phase N+2 separada.
+  Audiencia: entrepreneur/founder (lenguaje de negocio, no jerga técnica).
+  Testing: no hay test runner convencional — los skills son Markdown sin comportamiento runtime.
+  Style: Conventional Commits.
+
+strict_tdd: false
+
+# Estrategia de entrega cacheada para esta sesión (decidida por el usuario):
+delivery:
+  execution_mode: auto          # ejecutar fases back-to-back, sin pausar
+  delivery_strategy: single-pr  # M14-entrepreneur en un PR; size:exception aceptada
+  size_exception: true
+  rationale: "M14-entrepreneur = Stripe subscriptions (sub-archivo + extensiones aditivas) + king-pro-landing skill; merge único a develop."
+
+testing:
+  strict_tdd_mode: disabled
+  detected: 2026-05-28
+  test_runner:
+    framework: none
+    command: "—"
+  note: |
+    king-entrepreneur es un plugin Markdown/YAML — no hay runtime tests de skills.
+    La verificación es estructural (frontmatter, anatomía v1.0, sin secrets en ejemplos) + contrato cross-repo.
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+    - Identify affected modules/packages
+  specs:
+    - Use Given/When/Then format for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+  design:
+    - Document architecture decisions with rationale
+    - Reference mejora/planes-detallados/M14-business-model-monetization.md as source of truth
+  tasks:
+    - Group tasks by phase (block)
+    - Use hierarchical numbering
+  apply:
+    - Follow existing skill anatomy v1.0 (skills del plugin)
+    - Extensions to existing files MUST be additive (never remove existing content)
+  verify:
+    - Verify structural conformance (no conventional runtime tests for Markdown skills)
+    - The observation schema written by the Stripe webhook MUST match king-core license-management.md
+    - No real secrets (sk_live_/whsec_/price IDs) in examples
+  archive:
+    - Warn before merging destructive deltas

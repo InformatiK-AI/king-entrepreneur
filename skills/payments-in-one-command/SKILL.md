@@ -1,6 +1,7 @@
 ---
 name: payments-in-one-command
 version: 1.0
+api_version: 1.0.0
 description: "Configura sistema de pagos en un comando. Auto-detecta Stripe o Lemonsqueezy. Genera inicialización, webhook con firma obligatoria y .env.example. Usable independientemente de otros skills S12."
 ---
 
@@ -108,6 +109,7 @@ Recovery:
 1. [ ] Según el provider, cargar el sub-archivo correspondiente:
    - `stripe` → leer `skills/payments-in-one-command/STRIPE.md`
    - `lemonsqueezy` → leer `skills/payments-in-one-command/LEMONSQUEEZY.md`
+   - modo `king-billing` (invocado con `--mode king-billing`, sobre Stripe) → leer `skills/payments-in-one-command/STRIPE-SUBSCRIPTIONS.md` (suscripciones recurrentes King Pro/Team + customer portal + 3 webhooks que sincronizan la licencia con Engram)
 2. [ ] El sub-archivo guía la generación de código de la Fase 3
 
 ### CHECKPOINT
@@ -167,6 +169,7 @@ Recovery:
 1. [ ] Crear o actualizar `.env.example` con las variables requeridas (placeholders únicamente):
    - Stripe: `STRIPE_SECRET_KEY=sk_live_REPLACE_WITH_YOUR_VALUE`, `STRIPE_PUBLISHABLE_KEY=pk_live_REPLACE_WITH_YOUR_VALUE`, `STRIPE_WEBHOOK_SECRET=whsec_REPLACE_WITH_YOUR_VALUE`
    - Lemonsqueezy: `LEMONSQUEEZY_API_KEY=REPLACE_WITH_YOUR_VALUE`, `LEMONSQUEEZY_WEBHOOK_SECRET=REPLACE_WITH_YOUR_VALUE`, `LEMONSQUEEZY_STORE_ID=REPLACE_WITH_YOUR_VALUE`
+   - King billing (modo `king-billing`): `STRIPE_PRICE_ID_PRO=price_REPLACE_WITH_YOUR_VALUE`, `STRIPE_PRICE_ID_TEAM=price_REPLACE_WITH_YOUR_VALUE`, `STRIPE_CUSTOMER_PORTAL_URL=https://billing.stripe.com/REPLACE_WITH_YOUR_VALUE`
 2. [ ] Verificar que `.env` y `.env.local` están en `.gitignore`
 3. [ ] Instruir al usuario cómo obtener las keys:
    ```

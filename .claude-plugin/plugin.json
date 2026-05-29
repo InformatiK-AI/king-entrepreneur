@@ -1,7 +1,7 @@
 {
   "name": "king-entrepreneur",
-  "version": "1.0.0",
-  "description": "King Entrepreneur: ruta completa para fundar y lanzar un SaaS. /welcome detecta tu perfil, /validate-idea analiza tu mercado, /mvp-accelerator lanza auth + pagos + deploy + landing en un comando.",
+  "version": "1.1.0",
+  "description": "King Entrepreneur: ruta completa para fundar, lanzar y monetizar un SaaS. /welcome detecta tu perfil, /validate-idea analiza tu mercado, /mvp-accelerator lanza auth + pagos + deploy + landing en un comando. Arco go-to-market (M08): CRM, email sequences, lead magnets, sales funnel, onboarding y churn. Billing (M14): suscripciones Stripe + landing King Pro.",
   "author": {
     "name": "InformatiK-AI",
     "email": "j.salgado2k@gmail.com"
