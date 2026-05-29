@@ -9,7 +9,7 @@
   "license": "MIT",
   "homepage": "https://github.com/InformatiK-AI/king-entrepreneur",
   "repository": "https://github.com/InformatiK-AI/king-entrepreneur",
-  "requires": ["king-framework"],
+  "requires": ["king-core"],
   "keywords": [
     "entrepreneur",
     "saas",
