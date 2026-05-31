@@ -3,6 +3,7 @@ name: transactional-email
 version: 1.0
 api_version: 1.0.0
 description: "Genera emails transaccionales listos para producción: bienvenida, reset de contraseña, recibo de pago, renovación y recuperación de conversión. i18n español + inglés, dark mode automático y entregabilidad verificada (DKIM/SPF). Usable junto a /email-sequences y /crm-integrate."
+model: sonnet
 ---
 
 # /transactional-email — Emails Transaccionales para tu Producto

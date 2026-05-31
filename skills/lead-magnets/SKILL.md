@@ -3,6 +3,7 @@ name: lead-magnets
 version: 1.0
 api_version: 1.0.0
 description: "Genera formularios de captura de leads embebibles en la landing. Providers: Tally (default), Typeform, Formspree. Output: componente React/HTML con UTM tracking, GDPR consent obligatorio, anti-spam honeypot e integración al CRM via webhook."
+model: sonnet
 ---
 
 # /lead-magnets — Captura de Leads para tu Landing

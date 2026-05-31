@@ -3,6 +3,7 @@ name: user-story-mapping
 version: 1.0
 api_version: 1.0.0
 description: "User Story Map estilo Jeff Patton para founders no-técnicos: personas, journey, user stories en Gherkin y MVP scope (slice horizontal mínima). Output: docs/story-mapping/."
+model: sonnet
 ---
 
 # /user-story-mapping — Mapeá el Journey de tu Usuario

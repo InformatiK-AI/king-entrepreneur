@@ -3,6 +3,7 @@ name: wireframe-to-spec
 version: 1.0
 api_version: 1.0.0
 description: "El founder describe la UI en lenguaje natural y se genera la spec técnica de componentes: layout responsive (320/768/1024px), estados, accessibility y performance budgets. Output: docs/wireframe-specs/."
+model: sonnet
 ---
 
 # /wireframe-to-spec — De Descripción a Spec de Componentes

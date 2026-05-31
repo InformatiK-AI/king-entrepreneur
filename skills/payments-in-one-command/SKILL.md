@@ -3,6 +3,7 @@ name: payments-in-one-command
 version: 1.0
 api_version: 1.0.0
 description: "Configura sistema de pagos en un comando. Auto-detecta Stripe o Lemonsqueezy. Genera inicialización, webhook con firma obligatoria y .env.example. Usable independientemente de otros skills S12."
+model: sonnet
 ---
 
 # /payments-in-one-command — Pagos para Entrepreneur

@@ -3,6 +3,7 @@ name: seo-foundations
 version: 1.0
 api_version: 1.0.0
 description: "SEO técnico completo + optimización para AI search (SGE/Perplexity/ChatGPT) desde el primer deploy: metadata, structured data, sitemap, robots.txt, llms.txt y auditoría. Output: cambios al <head> + public/ + docs/seo/."
+model: sonnet
 ---
 
 # /seo-foundations — SEO Técnico y AI Search desde el Día 0

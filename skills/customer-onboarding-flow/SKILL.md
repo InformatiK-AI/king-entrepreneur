@@ -3,6 +3,7 @@ name: customer-onboarding-flow
 version: 1.0
 api_version: 1.0.0
 description: "Configura el onboarding de clientes post-conversión: secuencia de 3 emails en 7 días, checklist in-app de getting started con progreso visual, métricas de activación importadas de analytics, y una señal de churn automática en el CRM cuando el usuario no activa la feature clave en 7 días. Depende de /crm-integrate (field mapping del CRM existente)."
+model: sonnet
 ---
 
 # /customer-onboarding-flow — Activá a tus nuevos clientes en sus primeros 7 días

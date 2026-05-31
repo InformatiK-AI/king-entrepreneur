@@ -3,6 +3,7 @@ name: analytics-setup
 version: 1.0
 api_version: 1.0.0
 description: "Configura analytics de negocio con eventos predefinidos por tipo de producto, tipado estricto, funnels y cohorts desde el día 0 (PostHog/Amplitude/Mixpanel). Output: analytics/events + docs/analytics/tracking-plan.md."
+model: sonnet
 ---
 
 # /analytics-setup — Analytics de Negocio desde el Día 0

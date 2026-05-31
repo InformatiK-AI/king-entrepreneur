@@ -3,6 +3,7 @@ name: email-sequences
 version: 1.0
 api_version: 1.0.0
 description: "Configura secuencias de email automatizadas (drip campaigns) para onboarding. Secuencia de bienvenida de 5 emails, triggers, A/B testing en subject lines y suppression list activa. Verifica DKIM/SPF/DMARC antes de permitir envíos. Providers: Resend, Mailgun, Postmark, Loops."
+model: sonnet
 ---
 
 # /email-sequences — Secuencias de Email Automatizadas

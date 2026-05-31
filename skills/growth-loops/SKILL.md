@@ -3,6 +3,7 @@ name: growth-loops
 version: 1.0
 api_version: 1.0.0
 description: "Identifica e implementa loops de crecimiento orgánico (viral, referral, content, network): backend + frontend + analytics, con rate-limiting anti-fraude. Deja el código listo para revisar (PR-ready). Importa eventos de /analytics-setup."
+model: sonnet
 ---
 
 # /growth-loops — Implementá tu Motor de Crecimiento Orgánico

@@ -3,6 +3,7 @@ name: validate-idea
 version: 1.0
 api_version: 1.0.0
 description: "Análisis de viabilidad de idea de SaaS: TAM/SAM/SOM conversacional, competidores, diferenciadores. Output: reporte Markdown con recomendación clara (PROCEDER / PIVOTAR / DESCARTAR)."
+model: sonnet
 ---
 
 # /validate-idea — Validación de Idea de Producto

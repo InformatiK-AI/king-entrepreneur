@@ -3,6 +3,7 @@ name: business-spec
 version: 1.0
 api_version: 1.0.0
 description: "SDD adaptado para no-técnicos: el founder describe el problema y se genera una spec completa lista para que un developer ejecute /build. Output: docs/business-spec/ con handoff accionable."
+model: sonnet
 ---
 
 # /business-spec — De Idea a Especificación Accionable

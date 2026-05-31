@@ -3,6 +3,7 @@ name: crm-integrate
 version: 1.0
 api_version: 1.0.0
 description: "Integra tu CRM en un comando. Auto-detecta o configura el provider (HubSpot default, Pipedrive, Attio, Salesforce, Notion CRM), genera el field mapping canónico y un webhook handler con verificación de firma por provider. Un lead del formulario llega al CRM en menos de 30 segundos."
+model: sonnet
 ---
 
 # /crm-integrate — Conectá tu CRM en un comando

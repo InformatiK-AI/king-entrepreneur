@@ -3,6 +3,7 @@ name: pricing-strategy
 version: 1.0
 api_version: 1.0.0
 description: "El founder describe el producto y se recomienda el modelo de pricing óptimo (Freemium/Usage/Tiered/Per-seat/Outcome), 3 tiers con LTV/CAC y comparison table + fragmento de pricing page. Output: docs/pricing/."
+model: sonnet
 ---
 
 # /pricing-strategy — Elegí tu Modelo de Pricing con Datos

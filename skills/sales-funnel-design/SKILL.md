@@ -3,6 +3,7 @@ name: sales-funnel-design
 version: 1.0
 api_version: 1.0.0
 description: "Diseña el funnel de ventas (Lead → MQL → SQL → Opportunity → Customer) con lead scoring automático, automation rules en el CRM y dashboard de conversión. Output: docs/sales/funnel-definition.md con criterios y thresholds por etapa."
+model: sonnet
 ---
 
 # /sales-funnel-design — Funnel de Ventas con Lead Scoring Automático
